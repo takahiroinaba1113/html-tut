@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- meta tag used to define metadata -->
+        <!-- inside tags attributes/properties are passed -->
+        <!-- meta data is data for data -->
+        <meta charset="UTF-8">
+        <meta name="description" content="This is a meta tag's content">
+        <meta name="authoer" content="taka">
+        <meta name="keywords" content="HTML, Tutorial">
+        <!-- to set data for multiple devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Title Tags</title>
+    </head>
+    <!-- actual contents in the body tags -->
+    <body style="background-color: cyan;">
+        
+        <!-- header, main, section tags are to make the code readable and for the search engine to understand the contents -->
+
+        <!-- header tags -->
+        <header>
+            <!-- nav tags to store navigation information -->
+            <nav>
+
+            </nav>
+        </header>
+        
+        <!-- main tags -->
+        <main>
+
+            <!-- article tags for texts in the article -->
+            <article>
+
+                <!-- section tags to make sections -->
+                <section>
+                    <!-- h tags for header of sections -->
+                    <h3>h3 in section in article</h3>
+
+                    <!-- aside tags for sub contents -->
+                    <aside>
+
+                    </aside>
+                </section>
+
+                <section>
+
+                </section>
+            </article>
+        </main>
+
+        <!-- footer tags -->
+        <footer>
+
+        </footer>
+
+        <!-- span & div - containers -->
+        <!-- div - block elements - take up the entire line of the page -->
+        <!-- span - inline elements - take up as much space as they need -->
+
+        <span>span1: inline element.</span>
+        <span>span2: we can sit together.</span>
+
+        <div>div1: block element.</div>
+        <div>div2: we cant sit together horizontally.</div>
+
+        <div>
+            <div>
+                <span>this is a span in div in div</span>
+            </div>
+            <span>this is a span in div</span>
+        </div>
+
+        <!-- examples of inline and block elements -->
+        <!-- these two links are sitting right next to each other
+        -> meaning that they taking up as much spaces as they need, inline elements -->
+        <a href="#">Link1</a>
+        <a href="#">Link2</a>
+
+        <!-- these two are block elements, meaning that they cant sit right next to each other. -->
+        <!-- taking up the entire line of the page -->
+        <p>This is a block element</p>
+        <p>This is another block element</p>
+
+
+
+        <!-- h tags from 1 to 7 -->
+        <!-- p tags for paragraphs -->
+        <h1>These are h1 tags</h1>
+        
+        <!-- bold tags to make contents bold  -->
+        <p>These are <b>p</b> tags in h1 tags</p>
+        <p><b>Bold (b) tags</b> in p tags</p>
+
+        <!-- italic tags to make content italic -->
+        <p><i>Italic (i) tags</i> in p tags</p>
+        <p><b><i>both b and i tags in p tags</i></b></p>
+
+        <h2>These are h2 tags</h2>
+        <p>These are p tags in h2 tags</p>
+        
+        <!-- single tags or self-closing tags -->
+        <!-- break tag to make a space -->
+        <br/>
+        <!-- horizontal tag to make a horizontal line  -->
+        <hr/>
+
+        <!-- big and small tags to make contents bigger/smaller         -->
+        <p><big>These are <big>big</big> tags</big></p>
+        <p><small>These are <small>small</small> tags</small></p>
+
+        <!-- sub and super tags to make contents sub/super -->
+        <p>These are <sub>sub</sub> tags</p>
+        <p>These are <sup>super</sup> script tags</p>
+        
+        <!-- Style and Colors by adding attributes-->
+        <!-- style addtibute for styling -->
+        <!-- very basic styling can be done by HTML as well as CSS -->
+        <h3 style="color: chocolate;">These are h3 tags with style and colors</h3>
+        <p style="color: brown; background-color: chartreuse;">Style your HTML here</p>
+
+        <h4>These are h4 tags</h4>
+
+        <!-- tags for a link -->
+        <!-- href is for URL. dont forget to include https:// -->
+        <!-- target attribute is for opening the link in another tab -->
+        <a href="https://www.google.com" target="_blank"><h5>a tags for a link. it can have other tags too</h5></a>
+        
+        <h5>These are h5 tags</h5>
+
+        <!-- image tags to HTML -->
+        <!-- src="imageLink". images can be found on the internet, your local, wherever-->
+        <!-- alt="whatsGonnaShowUpIfTheImageNotAvailable" -->
+        <!-- width and height for specifying the pixels -->
+        <img width="100" height="100" src="" alt="a person pic" />
+        
+        <h6>These are h6 tags</h6>
+
+        <!-- video tags to HTML -->
+        <!-- src="videoLink" -->
+        <!-- controls to make user play and pause  -->
+        <!-- poster="thumbnailPicLink" -->
+        <!-- autoplay to play automatically -->
+        <!-- loop to play again  -->
+        <video src="" poster="" autoplay loop controls width="300">This message is shown when the browser cant show the video</video>
+
+        <!-- adding a youtube video to HTML  -->
+        <!-- iframe for youtube video -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <!-- Lists -->
+        <!-- ul - unordered list -->
+        <!-- -> unordered list gives you bullet points to show items -->
+        <!-- li - list  -->
+        <ul>
+            <li>Apples</li>
+            <li>Oranges</li>
+            <li>Bananas</li>
+        </ul>
+
+        <!-- ol - ordered list  -->
+        <!-- use type to specify numbers/characters to order the items  -->
+        <ol type="a">
+            <li>Apples</li>
+            <li>Oranges
+                <ol type="I">
+                    <li>another list 1</li>
+                    <li>another list 2</li>
+                    <li>another list 3</li>
+                </ol>
+            </li>
+            <li>Bananas</li>
+        </ol>
+
+        <!-- description lists  -->
+        <!-- dl - description list -->
+        <!-- dt - description term -->
+        <!-- dd - definition description -->
+        <dl>
+            <dt>Apples</dt>
+            <dd>- they are red</dd>
+        </dl>
+
+        <!-- tables  -->
+        <!-- caption - title of the table -->
+        <!-- tr - table row for one entry-->
+        <!-- td - table data for one column-->
+            <!-- colspan - how many column space for the element to take up  -->
+        <!-- th - table header -->
+        <!-- thead and tbody are for organizing  -->
+        <table>
+            <thead>
+            <caption><h2>List of tr, tb, and th</h2></caption>
+            <tr>
+                <th>[table header 1]</th>
+                <th>[table header 2]</th>
+                <th>[table header 3]</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td colspan="2">[tr1 td1]</td>
+                <td>[tr1 td2]</td>
+                <td>[tr1 td3]</td>
+            </tr>
+            <tr>
+                <td>[tr2 td1]</td>
+                <td>[tr2 td2]</td>
+                <td>[tr2 td3]</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!-- input & forms  -->
+        <!-- tyep - specify what kind of input you want  -->
+        <!-- text - text input -->
+        <!-- password - password input  -->
+        <input type="text" value="Enter your usename"/>
+        <input type="password" />
+        <input type="date" />
+        <input type="range" />
+        <input type="file" />
+        <input name="btn" type="checkbox" />
+        <input name="btn" type="radio" />
+        <input type="submit" />
+
+        <!-- textarea for a lot of text input  -->
+        <textarea rows="10" cols="30"></textarea>
+
+        <form>
+            form here 
+            <input name="submit type in input inside form" type="submit" />
+        </form>
+
+        <!-- iframe for embedding another web site -->
+        <!-- frameborder to set the frame -->
+        <iframe src="https://giraffeacademy.com" frameborder="0" width="1000" height="800">Here is the text shown when the web page embedded isnt shown</iframe>
+
+    </body>
+</html>
